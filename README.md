@@ -11,7 +11,7 @@ https://tickybott.herokuapp.com/
 - benji1304 (lead)
 - itsellej
 - KWweb
-- Ania (need to find GH username!)
+- Luapuhpuh 
 
 
 ### MVP: ###
@@ -46,7 +46,9 @@ Useful links (thank you @itsellej) :
 
 Version control with git:
 https://eu.udacity.com/course/version-control-with-git--ud123
+
 How to use git and github:
 https://eu.udacity.com/course/how-to-use-git-and-github--ud775
+
 github and collaboration:
 https://eu.udacity.com/course/github-collaboration--ud456
