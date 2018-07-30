@@ -1,7 +1,9 @@
+
 body {
   font-family: 'Signika', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-
 
 /* HEADERS */
 h1, h2, h3 {
@@ -69,6 +71,43 @@ p.tagline{
   color: #ffffff;
   font-weight: 300
 }
+
+
+/* WHAT IS TICKY BOT */
+
+#about {
+    background-color: #fafafa;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section-title {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.about-left {
+    float: left;
+    width: 45%;
+    margin: 16px;
+}
+
+.about-right {
+    float: left;
+    width: 45%;
+    margin: 16px;
+}
+
 
 
 /* FOOTER */
