@@ -77,10 +77,12 @@ p.tagline{
 
 #about {
     background-color: #fafafa;
+    color: #3F3F3F;
     display:flex;
     align-items: center;
     justify-content: center;
     margin: 0;
+    
 }
 
 .container {
@@ -96,10 +98,14 @@ p.tagline{
     text-align: center;
 }
 
+.about-text {
+    font-size: 20px;
+}
+
 .about-left {
     float: left;
     width: 45%;
-    margin: 16px;
+    margin: 16px; 
 }
 
 .about-right {
@@ -108,7 +114,40 @@ p.tagline{
     margin: 16px;
 }
 
+/* HOW IT WORKS */ 
 
+#howitworks {
+            background-color: #90ddaa;
+            color: #3F3F3F;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+    
+}
+
+.cards {
+    display:flex;
+    width: 33%;
+    background-color: #40596b;
+    text-align: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.card-image {
+    width: 224px;
+    margin: 4rem 0;
+}
+
+.card-description {
+    background-color: #fafafa;
+    display: block;
+    padding: 16px;
+    text-align: center;
+    margin: 0;
+
+}
 
 /* FOOTER */
 
