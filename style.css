@@ -1,0 +1,95 @@
+body {
+  font-family: 'Signika', sans-serif;
+}
+
+
+/* HEADERS */
+h1, h2, h3 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 4.8rem;
+  color: #224D5E;
+  letter-spacing: -0.1rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+
+}
+
+
+/* HYPERLINKS */
+
+a {
+  text-decoration:none;
+}
+
+
+/* NAV BAR */
+nav{
+  background-color: #40596b;
+  text-align: center;
+  padding: 0.8rem;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  font-size: 1.3rem;
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+ul a {
+  color: #f3d05e;
+}
+
+ul a:hover {
+  color: #eef9fd;
+}
+
+
+/* MAIN */
+
+#home{
+  background-color: #55c0ec;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+p.tagline{
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: 300
+}
+
+
+/* FOOTER */
+
+footer {
+  background-color: #40596b;
+  padding: 0.8rem;
+
+}
+
+footer p {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #B9C2C9;
+  line-height: 0.8em;
+  text-align: center;
+}
+
+footer a {
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #B9C2C9;
+  text-decoration: underline;
+}
