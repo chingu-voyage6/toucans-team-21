@@ -28,7 +28,7 @@ h3 {
 /* HYPERLINKS */
 
 a {
-
+  text-decoration:none;
 }
 
 
@@ -42,3 +42,27 @@ li {
 
 
 /* BUTTONS */
+
+
+/* FOOTER */
+
+footer{
+  background-color: #40596b;
+  padding: 0.8rem;
+
+}
+
+footer p{
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #B9C2C9;
+  line-height: 0.8em;
+  text-align: center;
+}
+
+footer a{
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #B9C2C9;
+  text-decoration: underline;
+}
