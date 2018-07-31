@@ -3,6 +3,7 @@ body {
   font-family: 'Signika', sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.5;
 }
 
 /* HEADERS */
@@ -86,10 +87,11 @@ p.tagline{
 }
 
 .container {
-    width: 60%;
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .section-title {
@@ -130,10 +132,17 @@ p.tagline{
     display:flex;
     margin: 16px;
     width: 30%;
+    min-width: 341px;
     background-color: #40596b;
     text-align: center;
     flex-direction: column;
     box-sizing: border-box;
+    border-radius: 4px;
+    align-self: stretch;
+}
+
+.cards a {
+    text-decoration: underline;
 }
 
 .card-image {
@@ -149,11 +158,16 @@ p.tagline{
     text-align: center;
     margin: 0;
     font-size: 1.25rem;
-    
-
 }
 
-/* doing a small github test to see if I understand pull requests!*/
+code {
+    background-color: rgba(0,0,0,.05);
+    border-radius: 2px;
+    color: crimson;
+    margin: 0;
+    padding: .2rem;
+}
+
 
 /* FOOTER */
 
