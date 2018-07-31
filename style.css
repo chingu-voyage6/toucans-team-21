@@ -1,7 +1,9 @@
+
 body {
   font-family: 'Signika', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-
 
 /* HEADERS */
 h1, h2, h3 {
@@ -70,6 +72,88 @@ p.tagline{
   font-weight: 300
 }
 
+
+/* WHAT IS TICKY BOT */
+
+#about {
+    background-color: #fafafa;
+    color: #3F3F3F;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    
+}
+
+.container {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section-title {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.about-text {
+    font-size: 20px;
+}
+
+.about-left {
+    float: left;
+    width: 45%;
+    margin: 16px; 
+}
+
+.about-right {
+    float: left;
+    width: 45%;
+    margin: 16px;
+}
+
+/* HOW IT WORKS */ 
+
+#howitworks {
+            background-color: #90ddaa;
+            color: #3F3F3F;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+    
+}
+
+.cards {
+    display:flex;
+    margin: 16px;
+    width: 30%;
+    background-color: #40596b;
+    text-align: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.card-image {
+    width: 224px;
+    margin: 4rem 0;
+}
+
+.card-description {
+    background-color: #fafafa;
+    height:auto;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+    font-size: 1.25rem;
+    
+
+}
+
+/* doing a small github test to see if I understand pull requests!*/
 
 /* FOOTER */
 
