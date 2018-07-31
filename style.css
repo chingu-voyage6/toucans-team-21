@@ -18,7 +18,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2.2rem;
+  font-size: 2.8rem;
+  letter-spacing: -1px;
 
 }
 
@@ -87,11 +88,15 @@ p.tagline{
 }
 
 .container {
-    width: 70%;
+    width: 75%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    margin-bottom: 40px;
+    font-size: 1.25rem;
+
 }
 
 .section-title {
@@ -166,6 +171,51 @@ code {
     color: crimson;
     margin: 0;
     padding: .2rem;
+}
+
+
+
+/* START USING TICKYBOT TODAY */
+
+
+#startusing {
+    background-color: #FAFAFA;
+    color: #3F3F3F;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    
+}
+
+.cta {
+    max-width: 600px;
+    text-align: center;
+}
+
+.cta p { 
+    line-height: 1.5;
+    text-align: center;
+}
+
+.btn-cta {
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 2px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 28px;
+
+}
+
+.btn-cta-dark {
+    margin: 50px;
+    background-color: #40596b;
+    color: #EDEDED;
+}
+
+.btn-cta-dark:hover {
+    background-color: #4b4b4b;
 }
 
 
