@@ -8,11 +8,10 @@ Recreate the Tickybot landing page
 https://tickybott.herokuapp.com/
 
 ### Team Members: ###
-- benji1304 (lead)
-- itsellej
+- itsellej (lead)
 - KWweb
 - Luapuhpuh 
-
+- benji1304
 
 ### MVP: ###
 - Discussed with @itsellej on 7th July 2018
