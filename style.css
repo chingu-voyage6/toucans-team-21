@@ -66,12 +66,28 @@ ul a:hover {
   background-color: #55c0ec;
   padding-top: 10vh;
   padding-bottom: 10vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
 }
 
 p.tagline{
   font-size: 1.5rem;
   color: #ffffff;
   font-weight: 300
+}
+
+.main-left {
+    float: center;
+    width: 45%;
+    margin: 16px;
+}
+
+.main-right {
+    float: center;
+    width: 45%;
+    margin: 16px;
 }
 
 
@@ -84,7 +100,7 @@ p.tagline{
     align-items: center;
     justify-content: center;
     margin: 0;
-    
+
 }
 
 .container {
@@ -112,7 +128,7 @@ p.tagline{
 .about-left {
     float: left;
     width: 45%;
-    margin: 16px; 
+    margin: 16px;
 }
 
 .about-right {
@@ -121,7 +137,7 @@ p.tagline{
     margin: 16px;
 }
 
-/* HOW IT WORKS */ 
+/* HOW IT WORKS */
 
 #howitworks {
             background-color: #90ddaa;
@@ -130,7 +146,7 @@ p.tagline{
             align-items: center;
             justify-content: center;
             margin: 0;
-    
+
 }
 
 .cards {
@@ -185,7 +201,7 @@ code {
     align-items: center;
     justify-content: center;
     margin: 0;
-    
+
 }
 
 .cta {
@@ -193,7 +209,7 @@ code {
     text-align: center;
 }
 
-.cta p { 
+.cta p {
     line-height: 1.5;
     text-align: center;
 }
