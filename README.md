@@ -10,18 +10,22 @@ https://tickybott.herokuapp.com/
 ### Team Members: ###
 - itsellej (lead)
 - KWweb
-- Luapuhpuh 
+- Luapuhpuh
 - benji1304
 
 ### MVP: ###
-- Discussed with @itsellej on 7th July 2018
 - Start with simple HTML, CSS, JS - no frameworks or libraries required
 - Simple landing page, initially with no css animation or transforms
 - Once MVP is finished can look at adding extra functionality
 - Suggested to look at Less, Sass for css later
 
 ### User Stories: ###
-- TBC
+- User can read what Tickybot is
+- User can learn what TickyBot does
+- User can navigate to each section of the page easily using a navigation bar
+- User can easily install Tickybot to slack by clicking on a button
+- User can view site on different screen sizes
+- User can easily navigate from footer to header without scrolling
 
 ### Technologies: ###
 - HTML
