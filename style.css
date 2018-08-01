@@ -82,6 +82,7 @@ p.tagline{
     float: center;
     width: 45%;
     margin: 16px;
+    text-align: center;
 }
 
 .main-right {
