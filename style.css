@@ -233,7 +233,7 @@ code {
     border-radius: 2px;
     align-items: center;
     cursor: pointer;
-    font-size: 28px;
+    font-size: 1.9rem;
     width: 240px;
 
 }
@@ -270,4 +270,24 @@ footer a {
   font-weight: 300;
   color: #B9C2C9;
   text-decoration: underline;
+}
+
+
+@media (max-width: 992px) {
+
+/* MAIN */
+  p.tagline{
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: -1rem;
+  }
+
+
+/* CTA BUTTONS */
+
+.btn-cta {
+    font-size: 1.5rem;
+    width: 200px;
+
 }
