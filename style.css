@@ -36,6 +36,18 @@ a {
   text-decoration:none;
 }
 
+.container {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 1.25rem;
+
+}
+
 
 /* NAV BAR */
 nav{
@@ -120,18 +132,6 @@ p.tagline{
 
 }
 
-.container {
-    width: 75%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
-    font-size: 1.25rem;
-
-}
-
 .section-title {
     width: 100%;
     margin: 0;
@@ -139,7 +139,7 @@ p.tagline{
 }
 
 .about-text {
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .about-left {
