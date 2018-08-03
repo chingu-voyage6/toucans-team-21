@@ -301,6 +301,16 @@ p.tagline{
   height: auto;
 }
 
+/* WHAT IS TICKYBOT */
+
+.about-left {
+    width: 90%;
+}
+
+.about-right {
+    width: 90%;
+}
+
 /* CTA BUTTONS */
 
 .btn-cta {
