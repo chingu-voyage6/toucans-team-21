@@ -82,16 +82,14 @@ p.tagline{
 }
 
 .main-left {
-    float: center;
     width: 45%;
-    margin: 16px;
+    margin: auto;
     text-align: center;
 }
 
 .main-right {
-    float: center;
     width: 45%;
-    margin: 16px;
+    margin: auto;
     text-align: center;
 }
 
