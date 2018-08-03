@@ -187,6 +187,7 @@ p.tagline{
     width: 100%;
     max-width: 224px;
     height: auto;
+    margin: 4rem 0;
   }
 
 .card-description {
