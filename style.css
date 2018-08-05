@@ -21,11 +21,13 @@ h1 {
   letter-spacing: -0.1rem;
   line-height: 1rem;
   margin-bottom: 3.5rem;
+  display: none;
 }
 
 h2 {
   font-size: 2.8rem;
   letter-spacing: -1px;
+  display: none;
 
 }
 
@@ -95,6 +97,7 @@ p.tagline{
   color: #ffffff;
   font-weight: 300;
   margin-bottom: -1rem;
+  display: none;
 }
 
 .main-left {
@@ -292,6 +295,11 @@ footer a {
 }
 
 
+.slack-icon{
+  max-width: 40%;
+  height: auto;
+}
+
 @media (max-width: 992px) {
 
   body {
@@ -314,6 +322,8 @@ footer a {
     width: 100%;
     max-width: 400px;
     height: auto;
+    display: none;
+
   }
 
   /* WHAT IS TICKYBOT */
@@ -330,10 +340,10 @@ footer a {
 
   .btn-cta {
       font-size: 1.3rem;
-      
+
 }
 
- 
+
 
 @media (max-width: 768px){
 
