@@ -21,13 +21,11 @@ h1 {
   letter-spacing: -0.1rem;
   line-height: 1rem;
   margin-bottom: 3.5rem;
-  display: none;
 }
 
 h2 {
   font-size: 2.8rem;
   letter-spacing: -1px;
-  display: none;
 
 }
 
@@ -97,7 +95,6 @@ p.tagline{
   color: #ffffff;
   font-weight: 300;
   margin-bottom: -1rem;
-  display: none;
 }
 
 .main-left {
@@ -329,8 +326,6 @@ footer a {
     width: 100%;
     max-width: 400px;
     height: auto;
-    display: none;
-
   }
 
   /* WHAT IS TICKYBOT */
@@ -371,10 +366,6 @@ footer a {
       font-size: 1.0rem;
     }
 
-  .main-right {
-      display: none;
-    }
-
   .main-left {
     width: 90%;
   }
@@ -400,4 +391,23 @@ footer a {
     padding-right: 4px;
 }
 
+
+
+    
+.reveal-item--visible {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+    
+.reveal-item {
+    opacity: 0;
+    -webkit-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+    -webkit-transition: opacity 1.5s cubic-bezier(.6,-.5,0,.75),-webkit-transform 1.5s cubic-bezier(.6,-.5,0,.75);
+    transition: opacity 1.5s cubic-bezier(.6,-.5,0,.75),-webkit-transform 1.5s cubic-bezier(.6,-.5,0,.75);
+    transition: opacity 1.5s cubic-bezier(.6,-.5,0,.75),transform 1.5s cubic-bezier(.6,-.5,0,.75);
+    transition: opacity 1.5s cubic-bezier(.6,-.5,0,.75),transform 1.5s cubic-bezier(.6,-.5,0,.75),-webkit-transform 1.5s cubic-bezier(.6,-.5,0,.75);
+}
+    
 }
