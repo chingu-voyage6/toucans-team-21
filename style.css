@@ -101,7 +101,7 @@ p.tagline{
 }
 
 .main-left {
-    width: 45%;
+    width: 40%;
     margin: auto;
     text-align: center;
 }
@@ -118,8 +118,12 @@ p.tagline{
     color: #565656;
 }
 
+
 .btn-cta-light:hover {
-    background-color: #FFFFFF;
+    background-color: #fafafa;
+    transition: background-color .3s ease-in-out;
+    -webkit-transition: background-color .3s ease-in-out;
+    -ms-transition: background-color .3s ease-in-out;
 }
 
 
@@ -240,7 +244,7 @@ code {
 }
 
 .btn-cta {
-    padding: 10px 25px;
+    padding: 7px;
     cursor: pointer;
     font-size: 1.8rem;
     max-width: 20vw;
@@ -250,6 +254,7 @@ code {
     text-align: center;
     align-self: center;
     display: inline-flex;
+    width: 100%;
 
 }
 
@@ -259,12 +264,15 @@ code {
     color: #EDEDED;
 }
 
+
 .btn-cta-dark:hover {
     background-color: #4b4b4b;
     transition: background-color .3s ease-in-out;
     -webkit-transition: background-color .3s ease-in-out;
     -ms-transition: background-color .3s ease-in-out;
 }
+
+
 
 .btn-cta img {
     padding-right: 10px;
@@ -296,8 +304,7 @@ footer a {
 
 
 .slack-icon{
-  max-width: 40%;
-  height: auto;
+  max-width: 20%;
 }
 
 @media (max-width: 992px) {
@@ -361,7 +368,7 @@ footer a {
   }
 
   .btn-cta {
-      font-size: 1.8rem;
+      font-size: 1.0rem;
     }
 
   .main-right {
@@ -383,5 +390,14 @@ footer a {
   h2 {
     font-size: 2rem;
   }
+    
+ .btn-cta {
+      font-size: 0.5rem;
+      padding: 3px;
+}
+    
+.btn-cta img {
+    padding-right: 4px;
+}
 
 }
