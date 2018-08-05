@@ -295,6 +295,11 @@ footer a {
 }
 
 
+.slack-icon{
+  max-width: 40%;
+  height: auto;
+}
+
 @media (max-width: 992px) {
 
   body {
