@@ -1,8 +1,4 @@
 
-
-/* * {
-  border: 2px solid #ce2e2e;
-} */
 body {
   font-family: 'Signika', sans-serif;
     margin: 0;
@@ -76,12 +72,12 @@ ul a {
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -ms-transition: all 0.3s;
-  
+
 }
 
 ul a:hover {
   color: #eef9fd;
-  
+
 }
 
 
@@ -151,7 +147,7 @@ p.tagline{
 .section-title {
     width: 100%;
     margin: 0;
-    text-align: center;   
+    text-align: center;
 }
 
 h2:after {
@@ -165,7 +161,7 @@ h2:after {
     transform: translateX(-50%);
     width: 160px;
 }
-    
+
 .about-text {
     font-size: 1.2rem;
 }
@@ -227,6 +223,25 @@ h2:after {
     font-size: 1.25rem;
 }
 
+.cardleft {
+    transition: all 300ms ease-in;
+    opacity: 0;
+}
+
+.cardmiddle{
+    transition: all 900ms ease-in;
+    opacity: 0;
+}
+
+.cardright {
+    transition: all 1200ms ease-in;
+    opacity: 0;
+}
+
+.js-cardleft-animate, .js-cardright-animate, .js-cardmiddle-animate{
+  opacity: 1;
+}
+
 code {
     background-color: rgba(0,0,0,.05);
     border-radius: 2px;
@@ -247,7 +262,7 @@ code {
     align-items: center;
     justify-content: center;
     margin: 0;
-    
+
 
 }
 
@@ -304,8 +319,8 @@ code {
 
 .btn-cta:hover .slack-icon {
     -webkit-transform : rotate(90deg) scale(0.8);
-    -ms-transform     : rotate(90deg) scale(0.8); 
-    transform         : rotate(90deg) scale(0.8); 
+    -ms-transform     : rotate(90deg) scale(0.8);
+    transform         : rotate(90deg) scale(0.8);
 
 }
 
@@ -402,7 +417,9 @@ footer a {
   }
 
   .btn-cta {
-      font-size: 1.0rem;
+      font-size: 1rem;
+      padding: 3px;
+      max-width: 40vw;
     }
 
   .main-left {
@@ -420,15 +437,16 @@ footer a {
   h2 {
     font-size: 2rem;
   }
-    
+
  .btn-cta {
-      font-size: 0.5rem;
+      font-size: 1rem;
       padding: 3px;
+      max-width: 40vw;
 }
-    
+
 .btn-cta img {
     padding-right: 4px;
 }
 
-    
+
 }
