@@ -21,13 +21,11 @@ h1 {
   letter-spacing: -0.1rem;
   line-height: 1rem;
   margin-bottom: 3.5rem;
-  display: none;
 }
 
 h2 {
   font-size: 2.8rem;
   letter-spacing: -1px;
-  display: none;
 
 }
 
@@ -97,11 +95,10 @@ p.tagline{
   color: #ffffff;
   font-weight: 300;
   margin-bottom: -1rem;
-  display: none;
 }
 
 .main-left {
-    width: 45%;
+    width: 40%;
     margin: auto;
     text-align: center;
 }
@@ -118,8 +115,12 @@ p.tagline{
     color: #565656;
 }
 
+
 .btn-cta-light:hover {
-    background-color: #FFFFFF;
+    background-color: #fafafa;
+    transition: background-color .3s ease-in-out;
+    -webkit-transition: background-color .3s ease-in-out;
+    -ms-transition: background-color .3s ease-in-out;
 }
 
 
@@ -240,7 +241,7 @@ code {
 }
 
 .btn-cta {
-    padding: 10px 25px;
+    padding: 7px;
     cursor: pointer;
     font-size: 1.8rem;
     max-width: 20vw;
@@ -250,6 +251,7 @@ code {
     text-align: center;
     align-self: center;
     display: inline-flex;
+    width: 100%;
 
 }
 
@@ -259,12 +261,15 @@ code {
     color: #EDEDED;
 }
 
+
 .btn-cta-dark:hover {
     background-color: #4b4b4b;
     transition: background-color .3s ease-in-out;
     -webkit-transition: background-color .3s ease-in-out;
     -ms-transition: background-color .3s ease-in-out;
 }
+
+
 
 .btn-cta img {
     padding-right: 10px;
@@ -296,8 +301,7 @@ footer a {
 
 
 .slack-icon{
-  max-width: 40%;
-  height: auto;
+  max-width: 20%;
 }
 
 @media (max-width: 992px) {
@@ -322,8 +326,6 @@ footer a {
     width: 100%;
     max-width: 400px;
     height: auto;
-    display: none;
-
   }
 
   /* WHAT IS TICKYBOT */
@@ -361,11 +363,7 @@ footer a {
   }
 
   .btn-cta {
-      font-size: 1.8rem;
-    }
-
-  .main-right {
-      display: none;
+      font-size: 1.0rem;
     }
 
   .main-left {
@@ -383,5 +381,33 @@ footer a {
   h2 {
     font-size: 2rem;
   }
+    
+ .btn-cta {
+      font-size: 0.5rem;
+      padding: 3px;
+}
+    
+.btn-cta img {
+    padding-right: 4px;
+}
 
+
+
+    
+.reveal-item--visible {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+    
+.reveal-item {
+    opacity: 0;
+    -webkit-transform: translateY(-1rem);
+    transform: translateY(-1rem);
+    -webkit-transition: opacity 1.5s cubic-bezier(.6,-.5,0,.75),-webkit-transform 1.5s cubic-bezier(.6,-.5,0,.75);
+    transition: opacity 1.5s cubic-bezier(.6,-.5,0,.75),-webkit-transform 1.5s cubic-bezier(.6,-.5,0,.75);
+    transition: opacity 1.5s cubic-bezier(.6,-.5,0,.75),transform 1.5s cubic-bezier(.6,-.5,0,.75);
+    transition: opacity 1.5s cubic-bezier(.6,-.5,0,.75),transform 1.5s cubic-bezier(.6,-.5,0,.75),-webkit-transform 1.5s cubic-bezier(.6,-.5,0,.75);
+}
+    
 }
