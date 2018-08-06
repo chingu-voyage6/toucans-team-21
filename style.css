@@ -27,6 +27,8 @@ h1 {
 h2 {
   font-size: 2.8rem;
   letter-spacing: -1px;
+    display: inline-block;
+    position: relative;
   opacity:0;
 }
 
@@ -149,9 +151,21 @@ p.tagline{
 .section-title {
     width: 100%;
     margin: 0;
-    text-align: center;
+    text-align: center;   
 }
 
+h2:after {
+    background-color: #55c0ec;
+    bottom: 0;
+    content: "";
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 160px;
+}
+    
 .about-text {
     font-size: 1.2rem;
 }
