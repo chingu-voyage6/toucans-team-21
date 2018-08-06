@@ -9,9 +9,7 @@ https://tickybott.herokuapp.com/
 
 ### Team Members: ###
 - itsellej (lead)
-- KWweb
 - Luapuhpuh
-- benji1304
 
 ### MVP: ###
 - Start with simple HTML, CSS, JS - no frameworks or libraries required
@@ -30,7 +28,6 @@ https://tickybott.herokuapp.com/
 ### Technologies: ###
 - HTML
 - CSS
-- JavaScript (es6?)
 - jQuery
 
 ### Waffle board: ###
