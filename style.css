@@ -45,6 +45,7 @@ a {
     align-items: center;
     margin-bottom: 40px;
     font-size: 1.25rem;
+    scroll-behavior: smooth;
 
 }
 
@@ -93,6 +94,7 @@ ul a:hover {
   align-items: center;
   justify-content: center;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 p.tagline{
@@ -138,6 +140,7 @@ p.tagline{
     align-items: center;
     justify-content: center;
     margin: 0;
+    scroll-behavior: smooth;
 
 }
 
@@ -172,6 +175,7 @@ p.tagline{
   align-items: center;
   justify-content: center;
   margin: 0;
+  scroll-behavior: smooth;
 
 }
 
@@ -229,6 +233,7 @@ code {
     align-items: center;
     justify-content: center;
     margin: 0;
+    
 
 }
 
