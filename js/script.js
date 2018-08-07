@@ -1,6 +1,6 @@
 let $cardleft = $('.cardleft');
-let $cardmiddle = $('.cardmiddle');
-let $cardright = $('.cardright');
+    $cardmiddle = $('.cardmiddle');
+    $cardright = $('.cardright');
 
 $cardleft.waypoint(function () {
   $cardleft.addClass('js-cardleft-animate');
@@ -13,6 +13,12 @@ $cardmiddle.waypoint(function () {
 $cardright.waypoint(function () {
   $cardright.addClass('js-cardright-animate');
 }, { offset: '70%' });
+
+$('.btn-top').waypoint(function() {
+    $('.btn-top').addClass('btn-top-reveal');
+    }, {offset: '90%'});
+
+
 
 $(document).ready(function () {
 
@@ -27,7 +33,7 @@ $(document).ready(function () {
         $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 400);
         });
     
-    $('.btn-go-to-top').click(function(){
+    $('.btn-top').click(function(){
         $('html, body').animate({scrollTop:0}, 400);
         return false;
     });

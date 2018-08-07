@@ -291,9 +291,9 @@ code {
     align-self: center;
     display: inline-flex;
     width: 100%;
-    transition: all 3s ease;
-    -webkit-transition: all 1s ease;
-    -ms-transition: all 2\1s ease;
+    transition: all 1.5s ease;
+    -webkit-transition: all 1.5s ease;
+    -ms-transition: all 1.5s ease;
 
 }
 
@@ -342,6 +342,7 @@ code {
     position: fixed;
     right: 2%;
     bottom: 2%;
+    display:none;
 }
 
 .btn-go-to-top img {
