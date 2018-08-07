@@ -26,4 +26,10 @@ $(document).ready(function () {
         event.preventDefault();
         $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 400);
         });
+    
+    $('.btn-go-to-top').click(function(){
+        $('html, body').animate({scrollTop:0}, 400);
+        return false;
+    });
+    
 });
