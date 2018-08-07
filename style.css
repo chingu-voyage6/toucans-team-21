@@ -318,15 +318,16 @@ code {
 }
 
 .btn-cta:hover .slack-icon {
-    -webkit-transform : rotate(90deg) scale(0.8);
-    -ms-transform     : rotate(90deg) scale(0.8);
-    transform         : rotate(90deg) scale(0.8);
+    -webkit-transform : rotate(18deg) scale(1.4);
+    -ms-transform     : rotate(18deg) scale(1.4);
+    transform         : rotate(18deg) scale(1.4);
 
 }
 
 .btn-cta img {
-    padding-right: 10px;
-    transition: transform 1s;
+    padding-right: 20px;
+    transition: transform 0.5s;
+
 }
 
 
@@ -371,7 +372,7 @@ footer a {
 
 
 .slack-icon{
-  max-width: 20%;
+  max-width: 12%;
 }
 
 @media (max-width: 992px) {
