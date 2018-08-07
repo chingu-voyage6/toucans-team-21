@@ -332,6 +332,22 @@ code {
 
 /* FOOTER */
 
+.btn-go-to-top {
+    background-color: #ffd05a;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,.1);
+    cursor: pointer;
+    text-decoration: none;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+}
+
+.btn-go-to-top img {
+    width: 2.5rem;
+    padding: 0.4rem;
+}
+
 footer {
   background-color: #40596b;
   padding: 0.8rem;
