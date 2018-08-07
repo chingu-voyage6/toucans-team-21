@@ -1,23 +1,3 @@
-let $cardleft = $('.cardleft');
-    $cardmiddle = $('.cardmiddle');
-    $cardright = $('.cardright');
-
-$cardleft.waypoint(function () {
-  $cardleft.addClass('js-cardleft-animate');
-}, { offset: '70%' });
-
-$cardmiddle.waypoint(function () {
-  $cardmiddle.addClass('js-cardmiddle-animate');
-}, { offset: '70%' });
-
-$cardright.waypoint(function () {
-  $cardright.addClass('js-cardright-animate');
-}, { offset: '70%' });
-
-$('.btn-top').waypoint(function() {
-    $('.btn-top').addClass('btn-top-reveal');
-    }, {offset: '90%'});
-
 
 
 $(document).ready(function () {
@@ -38,4 +18,25 @@ $(document).ready(function () {
         return false;
     });
     
+    let $cardleft = $('.cardleft');
+        $cardmiddle = $('.cardmiddle');
+        $cardright = $('.cardright');
+
+    $cardleft.waypoint(function () {
+      $cardleft.addClass('js-cardleft-animate');
+    }, { offset: '70%' });
+
+    $cardmiddle.waypoint(function () {
+      $cardmiddle.addClass('js-cardmiddle-animate');
+    }, { offset: '70%' });
+
+    $cardright.waypoint(function () {
+      $cardright.addClass('js-cardright-animate');
+    }, { offset: '70%' });
+
+    $('.btn-top').waypoint(function() {
+        $('.btn-top').addClass('btn-top-reveal');
+        }, {offset: '90%'});
+
+
 });
