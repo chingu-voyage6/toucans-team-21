@@ -1,18 +1,4 @@
-let $cardleft = $('.cardleft');
-let $cardmiddle = $('.cardmiddle');
-let $cardright = $('.cardright');
 
-$cardleft.waypoint(function () {
-  $cardleft.addClass('js-cardleft-animate');
-}, { offset: '70%' });
-
-$cardmiddle.waypoint(function () {
-  $cardmiddle.addClass('js-cardmiddle-animate');
-}, { offset: '70%' });
-
-$cardright.waypoint(function () {
-  $cardright.addClass('js-cardright-animate');
-}, { offset: '70%' });
 
 $(document).ready(function () {
 
@@ -26,4 +12,31 @@ $(document).ready(function () {
         event.preventDefault();
         $("html, body").animate({ scrollTop: $($(this).attr("href")).offset().top }, 400);
         });
+    
+    $('.btn-top').click(function(){
+        $('html, body').animate({scrollTop:0}, 400);
+        return false;
+    });
+    
+    let $cardleft = $('.cardleft');
+        $cardmiddle = $('.cardmiddle');
+        $cardright = $('.cardright');
+
+    $cardleft.waypoint(function () {
+      $cardleft.addClass('js-cardleft-animate');
+    }, { offset: '70%' });
+
+    $cardmiddle.waypoint(function () {
+      $cardmiddle.addClass('js-cardmiddle-animate');
+    }, { offset: '70%' });
+
+    $cardright.waypoint(function () {
+      $cardright.addClass('js-cardright-animate');
+    }, { offset: '70%' });
+
+    $('.btn-top').waypoint(function() {
+        $('.btn-top').addClass('btn-top-reveal');
+        }, {offset: '90%'});
+
+
 });
