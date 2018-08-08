@@ -4,8 +4,10 @@ Recreate the Tickybot Landing Page | Chingu Voyage-6 | https://chingu.io/
 ### Project: ###
 
 Recreate the Tickybot landing page
-
 https://tickybott.herokuapp.com/
+
+### Finished Project: ###
+https://tickybott.netlify.com/
 
 ### Team Members: ###
 - itsellej (lead)
@@ -31,24 +33,4 @@ https://tickybott.herokuapp.com/
 - jQuery
 
 ### Waffle board: ###
-
 https://waffle.io/chingu-voyage6/toucans-team-21
-
-
-### To do: ###
-
-https://github.com/Chingu-cohorts/pmrok/wiki/Voyage-Roadmap#act-1---project-setup
-- Get everyone setup with Git / Github
-- Practice Git command line for forking, cloning, Pull Requests and merging
-- ~~Agree on MVP (Minimum Viable Product)~~
-
-Useful links (thank you @itsellej) :
-
-Version control with git:
-https://eu.udacity.com/course/version-control-with-git--ud123
-
-How to use git and github:
-https://eu.udacity.com/course/how-to-use-git-and-github--ud775
-
-github and collaboration:
-https://eu.udacity.com/course/github-collaboration--ud456
