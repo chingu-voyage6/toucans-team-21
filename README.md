@@ -8,6 +8,8 @@ Recreate the Tickybot landing page: https://tickybott.herokuapp.com/
 ### Finished Project: ###
 https://tickybott.netlify.com/
 
+![screenshot](https://res.cloudinary.com/itsellej/image/upload/v1533719910/projects-gif/tickybot-screenshot.png)
+
 ### Team Members: ###
 - itsellej (lead)
 - Luapuhpuh
