@@ -3,8 +3,7 @@ Recreate the Tickybot Landing Page | Chingu Voyage-6 | https://chingu.io/
 
 ### Project: ###
 
-Recreate the Tickybot landing page
-https://tickybott.herokuapp.com/
+Recreate the Tickybot landing page: https://tickybott.herokuapp.com/
 
 ### Finished Project: ###
 https://tickybott.netlify.com/
